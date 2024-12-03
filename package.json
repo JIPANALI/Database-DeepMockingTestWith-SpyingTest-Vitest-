@@ -1,0 +1,25 @@
+{
+  "name": "24.2.4-intregation-testing(db)",
+  "version": "1.0.0",
+  "description": "//whatever we did in previouly those were unit testing//in uniit testingg we dont carre about teh db testing \r //there are three testing\r <!-- 1. unit Testing -->\r where  you dont start or connect to db\r <!-- 2. intregation testing -->\r where you do connect to db \r <!-- 3 end to end testing -->\r actually start a browser while testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.18.0",
+    "@types/express": "^4.17.21",
+    "@types/supertest": "^6.0.2",
+    "express": "^4.19.2",
+    "prisma": "^5.18.0",
+    "supertest": "^7.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "vitest": "^2.0.5",
+    "vitest-mock-extended": "^2.0.0"
+  }
+}
